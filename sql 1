@@ -1,1 +1,3 @@
-
+Select FIRST_NAME AS WORKER_NAME from Worker;
+Select DISTINCT DEPARTMENT from Worker;
+(SELECT * from Worker ORDER BY ID DESC LIMIT 5)ORDER BY ID ASC;
