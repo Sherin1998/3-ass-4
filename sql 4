@@ -1,0 +1,3 @@
+Select Replace(FIRST_NAME,'a','A') from Worker;
+Select * from Worker order by FIRST_NAME asc,DEPARTMENT desc;
+Select FIRST_NAME,LAST_NAME from Worker where salary in (Select max(salary) from worker);
