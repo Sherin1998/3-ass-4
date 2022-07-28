@@ -1,0 +1,3 @@
+Select * from Workers where FIRST_NAME not in ("Vipul","Satish");
+Select * from Workers where FIRST_NAME like '_____h';
+SELECT * FROM Worker WHERE Email NOT LIKE '%_@__%.__%';
