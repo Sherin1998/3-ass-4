@@ -1,0 +1,3 @@
+Select RTRIM(FIRST_NAME) from Worker;
+Select DISTICT DEPRATMENT ,LENGTH(DEPARTMENT) from Worker;
+Select min(SALARY) from (Select DISTINCT SALARY from Worker order_by salary desc) Limit n;
