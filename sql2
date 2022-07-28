@@ -1,0 +1,3 @@
+SELECT SUBSTRING(FIRST_NAME,1,3) FROM Worker;
+Select INSTR(FIRST_NAME, BINARY'a') from Worker where FIRST_NAME = 'Amitabh';
+Select FIRST_NAME,LAST_NAME from Worker Order by SALARY desc group by DEPARTMENT;
