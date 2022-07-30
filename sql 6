@@ -1,0 +1,2 @@
+Select * from Worker where year(JOINING_DATE)=2014 and month(JOINING_DATE)=2;
+Select First_Name,Last_Name,Department, COUNT(*) from Worker group by First_Name,Last_Name,Department having count(*)>1;
