@@ -1,0 +1,2 @@
+Select * from Worker LIMIT 10;
+Select SALARY from Worker order by SALARY desc LIMIT 4,1;
