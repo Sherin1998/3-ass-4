@@ -1,0 +1,2 @@
+SELECT * FROM (SELECT ROW_NUMBER() OVER (ORDER BY salary DESC) AS R_NUM, first_name, salary FROM employee) as HEllO WHERE R_NUM=5;
+SELECT * FROM employee ORDER BY salary ASC having Count(salary)>1;
