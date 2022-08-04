@@ -1,0 +1,2 @@
+SELECT <Column_names> FROM table_1 INTERSECT SELECT <Column_names> FROM table_2;
+ SELECT * FROM table_1 EXCEPT SELECT * FROM table_2;
